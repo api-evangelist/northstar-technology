@@ -1,8 +1,22 @@
 aid: northstar-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northstar-technology.png
 name: Northstar Technology
-description: Northstar Technology is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Northstar Technology (Northstar Technologies, Inc.) was a marine navigation electronics company
+  and an exited Battery Ventures portfolio investment. It was a leader in premium marine GPS/chartplotter
+  hardware and was acquired by Brunswick Corporation in December 2002 to form Brunswick New Technologies,
+  and later sold to Navico in 2007. It is a defunct hardware company with no live website, developer portal,
+  or public API surface; the enrichment pipeline found no API artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/northstar-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +26,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: exited
+x-defunct: true
+x-enrichment-finding: 'No API surface. Exited Battery Ventures investment; marine navigation electronics
+  hardware acquired by Brunswick (2002), later Navico (2007). No live site/API to enrich. Source:
+  battery.com/list-of-all-companies (exited), pitchbook.com/profiles/company/59216-32.'
 tags:
 - Company
+- Marine Electronics
+- Navigation
+- GPS
+- Hardware
+- Exited
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
